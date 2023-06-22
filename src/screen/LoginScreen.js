@@ -55,7 +55,7 @@ function LoginScreen({navigation}) {
           }}
         />
       </View>
-      <TouchableOpacity style={styles.btn1}>
+      <TouchableOpacity style={styles.btn1} onPress={()=> navigation.navigate('home')}>
         <Text style={styles.btntext}>Sign In</Text>
       </TouchableOpacity>
 
